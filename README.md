@@ -18,36 +18,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Microsoft Azure (create an account using free trial subscription or "Pay-as-you-go")
+- Microsoft Azure
 - Virtual Machine
 - osTicket Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/a/vVLaEMq" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/4fgCDS4" height="80%" width="80%" alt="Create a Resource Group"/>
 </p>
 <p>
-  
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 1: Create a VM (Virtual Machine) in Microsoft Azure
-    - Create a Resource Group
-        - Go to portal.azure.com
-        - Navigate to Resource Groups by searching using the taskbar at the top of the screen
-        - Click Create, name the Resource Group, Review & Create, and finally Create once it passes the validation test
-  
-    - Create a Windows 10 VM & ensure it creates a new Virtual Network (vnet)
-        - Navigate to Virtual Machines by searching
-        - Click Create, select your recently created Resource Group and name the VM
-        - Select Windows 10 as the Image, and 2-4 vCPUs as the size
-        - Setup a username/password
-        - Check the Licensing box
-        - Click Next until you reach the Networking section, and ensure a Virtual Network is created along with a subnet
-        - Click Review & Create and Create once the VM has passed validation
-  
+
+Step 1: Connect to Azure VM using Remote Desktop      
+    - Mac users, you will need to install Microsoft Remote Desktop for this step
+    - Windows users, you will Remote Desktop Connection
+       
 </p>
 <br />
 
@@ -55,7 +40,7 @@ Step 1: Create a VM (Virtual Machine) in Microsoft Azure
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Connect to Azure VM using Remote Desktop      
+Step 1: Connect to Azure VM using Remote Desktop      
     - Mac users, you will need to install Microsoft Remote Desktop for this step
     - Windows users, you will Remote Desktop Connection
 </p>
