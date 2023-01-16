@@ -27,11 +27,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 1: Connect to your Virtual Machine with Remote Desktop</h3>
 
 <p>
-<img src="https://i.imgur.com/5hrj6P1.png" height="50%" width="50%" alt="Remote Desktop to VM"/>
+<img src="https://i.imgur.com/5hrj6P1.png" height="40%" width="40%" alt="Remote Desktop to VM"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/QdKosPW.png" height="50%" width="50%" alt="Remote Desktop to VM"/>
+<img src="https://i.imgur.com/QdKosPW.png" height="40%" width="40%" alt="Remote Desktop to VM"/>
 </p>
 
 - Copy and Paste the VM's Public IP Address into your Remote Desktop program (Mac users will need Microsoft Remote Desktop)
@@ -40,14 +40,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 2: Install/Enable IIS in Windows WITH CGI</h3>
 
 <p>
-<img src="https://i.imgur.com/iQs1K4w.png" height="80%" width="80%" alt="Install/Enable IIS"/>
+<img src="https://i.imgur.com/iQs1K4w.png" height="40%" width="40%" alt="Install/Enable IIS"/>
 </p>
 
 - Navigate to Control Panel -> Programs -> Turn Windows features on or off -> World Wide Web Services -> Application Development Features -> [X] CGI
 - Open the Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 <p>
-<img src="https://i.imgur.com/gvx1EG5.png" height="80%" width="80%" alt="Installation Files"/>
+<img src="https://i.imgur.com/gvx1EG5.png" height="40%" width="40%" alt="Installation Files"/>
 </p>
 
 <h3>Step 3: Install Additional Files</h3>
