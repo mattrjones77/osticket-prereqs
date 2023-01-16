@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/a/4fgCDS4" height="80%" width="80%" alt="Create a Resource Group"/>
+<img src="https://imgur.com/a/4fgCDS4.png" height="80%" width="80%" alt="Create a Resource Group"/>
 </p>
 <p>
 
