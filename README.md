@@ -136,8 +136,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Refresh the osTicket site in your browse, observe the changes
 
 <p>
-<img src="https://i.imgur.com/6Oj3sqA.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/OnLrqST.png" height="40%" width="40%" alt=""/>
 </p>
+
+
 
 
 
