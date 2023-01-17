@@ -189,7 +189,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/xUephBj.png" height="40%" width="40%" alt=""/>
 </p> 
 
-Congratulations! You have successfully installed on a Windows 10 VM through Remote Desktop Connection!
+Congratulations! You have successfully installed osTicket on a Windows 10 VM through Remote Desktop Connection!
 
 <h3>Step 7: CLEAN UP</h3>
 
