@@ -139,14 +139,64 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/OnLrqST.png" height="40%" width="40%" alt=""/>
 </p>
 
+<h3>Step 6: Assign Permissions & Finish Setup</h3>
 
+- Rename: ost-config.php
+    - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+    - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
+<p>
+<img src="https://i.imgur.com/JuS3jVF.png" height="40%" width="40%" alt=""/>
+</p>
 
+- Assign Permissions: ost-config.php
+    - Disable inheritance -> Remove All
+    - New Permissions -> Everyone -> All
 
+<p>
+<img src="https://i.imgur.com/vfOJG4G.png" height="40%" width="40%" alt=""/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/Cbcj6pS.png" height="40%" width="40%" alt=""/>
+</p>
 
+- Continue Setting up osTicket in the browser (click Continue)
+    - Name Helpdesk
+    - Default email (receives email from customers)
 
+- From the Installation Files, download and install HeidiSQL.
+    - Open Heidi SQL
+    - Create a new session, root/Password1
+    - Connect to the session
+    - Create a database called “osTicket”
 
+<p>
+<img src="https://i.imgur.com/DFN9cVA.png" height="40%" width="40%" alt=""/>
+</p>  
 
-  
+<p>
+<img src="https://i.imgur.com/dKO60fs.png" height="40%" width="40%" alt=""/>
+</p>  
 
+- Continue Setting up osticket in the browser
+    - MySQL Database: osTicket
+    - MySQL Username: root
+    - MySQL Password: Password1
+    - Click “Install Now!”
+
+<p>
+<img src="https://i.imgur.com/xUephBj.png" height="40%" width="40%" alt=""/>
+</p> 
+
+Congratulations! You have successfully installed on a Windows 10 VM through Remote Desktop Connection!
+
+<h3>Step 7: CLEAN UP</h3>
+
+- Clean Up
+    - Delete: C:\inetpub\wwwroot\osTicket\setup
+    - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<p>
+<img src="https://i.imgur.com/oj8cAry.png" height="40%" width="40%" alt=""/>
+</p> 
