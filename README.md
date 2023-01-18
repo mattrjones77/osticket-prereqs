@@ -196,8 +196,6 @@ Congratulations! You have successfully installed osTicket on a Windows 10 VM thr
 - Clean Up
     - Delete: C:\inetpub\wwwroot\osTicket\setup
     - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-- Permissions: ost-config.php
-    - Set permissions back to "Read" & "Read and Write"
 
 <p>
 <img src="https://i.imgur.com/oj8cAry.png" height="40%" width="40%" alt=""/>
