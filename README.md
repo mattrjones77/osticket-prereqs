@@ -27,11 +27,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 1: Connect to your Virtual Machine with Remote Desktop</h3>
 
 <p>
-<img src="https://i.imgur.com/5hrj6P1.png" height="40%" width="40%" alt="Remote Desktop to VM"/>
+<img src="https://i.imgur.com/5hrj6P1.png" height="80%" width="80%" alt="Remote Desktop to VM"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/QdKosPW.png" height="40%" width="40%" alt="Remote Desktop to VM"/>
+<img src="https://i.imgur.com/QdKosPW.png" height="80%" width="80%" alt="Remote Desktop to VM"/>
 </p>
 
 - Copy and Paste the VM's Public IP Address into your Remote Desktop program (Mac users will need Microsoft Remote Desktop)
@@ -40,14 +40,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 2: Install/Enable IIS in Windows WITH CGI</h3>
 
 <p>
-<img src="https://i.imgur.com/iQs1K4w.png" height="40%" width="40%" alt="Install/Enable IIS"/>
+<img src="https://i.imgur.com/iQs1K4w.png" height="80%" width="80%" alt="Install/Enable IIS"/>
 </p>
 
 - Navigate to Control Panel -> Programs -> Turn Windows features on or off -> World Wide Web Services -> Application Development Features -> [X] CGI
 - Open the Installation Files [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 <p>
-<img src="https://i.imgur.com/gvx1EG5.png" height="40%" width="40%" alt="Installation Files"/>
+<img src="https://i.imgur.com/gvx1EG5.png" height="80%" width="80%" alt="Installation Files"/>
 </p>
 
 <h3>Step 3: Install Additional Files</h3>
@@ -79,23 +79,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Reload IIS (Open IIS, Stop and Start the server)
 
 <p>
-<img src="https://i.imgur.com/dEPguY1.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/dEPguY1.png" height="80%" width="80%" alt=""/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/5IMvkqq.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/5IMvkqq.png" height="80%" width="80%" alt=""/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/JwPamBr.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/JwPamBr.png" height="80%" width="80%" alt=""/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/41zWIj9.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/41zWIj9.png" height="80%" width="80%" alt=""/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/Ow9u7wR.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/Ow9u7wR.png" height="80%" width="80%" alt=""/>
 </p>
 
 <h3>Step 5: Install osTicket</h3>
@@ -106,16 +106,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Within c:\inetpub\wwwroot, rename "upload" to "osTicket"
 
 <p>
-<img src="https://i.imgur.com/QyjQMA9.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/QyjQMA9.png" height="80%" width="80%" alt=""/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/yUSt3TI.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/yUSt3TI.png" height="80%" width="80%" alt=""/>
 </p>
 
 
 <p>
-<img src="https://i.imgur.com/hgvj9qn.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/hgvj9qn.png" height="80%" width="80%" alt=""/>
 </p>
 
 - Reload IIS
@@ -123,7 +123,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - On the right, click "Browse *:80"
 
 <p>
-<img src="https://i.imgur.com/lDra8Uu.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/lDra8Uu.png" height="80%" width="80%" alt=""/>
 </p>
 
 - Note that some extensions are not enabled
@@ -146,7 +146,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 <p>
-<img src="https://i.imgur.com/JuS3jVF.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/JuS3jVF.png" height="80%" width="80%" alt=""/>
 </p>
 
 - Assign Permissions: ost-config.php
@@ -154,11 +154,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - New Permissions -> Everyone -> All
 
 <p>
-<img src="https://i.imgur.com/vfOJG4G.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/vfOJG4G.png" height="80%" width="80%" alt=""/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/Cbcj6pS.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/Cbcj6pS.png" height="80%" width="80%" alt=""/>
 </p>
 
 - Continue Setting up osTicket in the browser (click Continue)
@@ -172,11 +172,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Create a database called “osTicket”
 
 <p>
-<img src="https://i.imgur.com/DFN9cVA.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/DFN9cVA.png" height="80%" width="80%" alt=""/>
 </p>  
 
 <p>
-<img src="https://i.imgur.com/dKO60fs.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/dKO60fs.png" height="80%" width="80%" alt=""/>
 </p>  
 
 - Continue Setting up osticket in the browser
@@ -186,7 +186,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Click “Install Now!”
 
 <p>
-<img src="https://i.imgur.com/xUephBj.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/xUephBj.png" height="80%" width="80%" alt=""/>
 </p> 
 
 Congratulations! You have successfully installed osTicket on a Windows 10 VM through Remote Desktop Connection!
@@ -198,5 +198,5 @@ Congratulations! You have successfully installed osTicket on a Windows 10 VM thr
     - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 <p>
-<img src="https://i.imgur.com/oj8cAry.png" height="40%" width="40%" alt=""/>
+<img src="https://i.imgur.com/oj8cAry.png" height="80%" width="80%" alt=""/>
 </p> 
